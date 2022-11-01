@@ -1,0 +1,22 @@
+.TodoSearch {
+    background: #F9FBFC;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    text-align: center;
+    display: flex;
+    margin: 0 auto 5%;
+    height: 64px;
+    width: calc(100%-62px);
+    font-size: 24px;
+    font-weight: 800;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+    font-family: 'Courier New', Courier, monospace;
+}
+.TodoSearch::placeholder {
+    color: #A5A5A5;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+  }
+  .TodoSearch:focus {
+    outline-color: #7b8183;
+  }

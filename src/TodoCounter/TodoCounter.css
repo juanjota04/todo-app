@@ -1,0 +1,9 @@
+.TodoCounter {
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+}
